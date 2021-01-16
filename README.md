@@ -1,4 +1,4 @@
-Svelte for testing purposes only
+Svelte project for testing purposes only
 
 1.) For further development run 'npm run install-dev' to install dev dependencies followed by 'npm start'.
     It'll spin up dev static server with live reloading.
