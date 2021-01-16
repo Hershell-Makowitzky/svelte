@@ -3,7 +3,7 @@ import nodeResolve  from '@rollup/plugin-node-resolve';
 
 export default {
     input: "src/main.js",
-    output : {
+    output: {
         format: 'iife',
         file: './public/bundle.js',
         name: 'Test'
@@ -12,4 +12,10 @@ export default {
         svelte(),
         nodeResolve(),
     ],
+    input: "src/index.js",
+    output: {
+        format: 'html',
+        file: './public/index.html',
+        name: 'Test'
+    }
 }
