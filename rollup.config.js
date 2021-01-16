@@ -1,5 +1,6 @@
 import svelte from 'rollup-plugin-svelte';
 import nodeResolve  from '@rollup/plugin-node-resolve';
+import html from 'rollup-plugin-html'
 
 export default {
     input: "src/main.js",
@@ -12,10 +13,4 @@ export default {
         svelte(),
         nodeResolve(),
     ],
-    input: "src/index.js",
-    output: {
-        format: 'html',
-        file: './public/index.html',
-        name: 'Test'
-    }
 }
